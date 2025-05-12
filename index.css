@@ -1,15 +1,63 @@
-<html>
-<nav> 
-    <img src="https://i.postimg.cc/SsnpNfgb/Failsafe-logo.jpg" class="logo"</img>
-   <p1> Success through recognition of failure</p1>
-  <ul "class=navigationbar">
-      <li> <a href="#"> Home</a></li>
-      <li> <a href="#"> Sart journey</a></li>
-      <li> <a href="#"> Progress </a></li>
-      <li> <a href="#"> Rewards </a></li>
-      <li> <a href="#"> About Us </a><li>
-    </ul></nav>
-  <body>
-    <h2> What is Failsafe? </h2>
-  <p> Failsafe is your go-to support system for academic success. We specialize in helping students navigate their assessments with confidence—whether it's brainstorming ideas, structuring essays, refining research, or polishing final drafts. Our mission is to take the stress out of studying by offering reliable, personalized guidance at every step of the academic journey. At Failsafe, you're never on your own—we’ve got your back when it matters most. </p>
-     <img src="https://i.postimg.cc/SsnpNfgb/Failsafe-logo.jpg" class="homepage body"</img>
+img {
+  width: 200px;
+  height: 120px;
+}
+body{
+  Background-color:rgb(217,353,375);
+    background-repeat: no-repeat;
+  background-size:cover;
+}
+nav{
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  background-color:RGB(37, 150, 190);
+  justify-content:space-between;
+  overflow:auto;
+  padding: 14px 16px;
+  color:rgb(255,255,255);
+  font-stlye: Courier New;
+}
+ul li {
+  position:relative;
+  margin: 15px 20px;
+  list-style:none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Courier New;
+}
+.logo{
+  width: 120px;
+  height: 90px;
+  style: margin-left 40px;
+}
+ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+ul li a: hover {
+  background-color: rgb (129, 123, 123);
+}
+h1 {
+  font-family: Helvetica;
+    text-align: center;
+  color:white;
+    font-size: 70px;
+}
+p1 {
+ font-size: 20px;
+  font-Family: Courier New;
+}
+p{
+  font-family: Times New Roman;
+  font-size: 20px;
+  text-align: left; 
+}
+h2{
+  text-align:left;
+}
+img {
+  float: right;
+}
