@@ -1,0 +1,76 @@
+img {
+  width: 200px;
+  height: 120px;
+}
+body{
+  Background-color:rgb(217,353,375);
+    background-repeat: no-repeat;
+  background-size:cover;
+}
+nav{
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  background-color:RGB(37, 150, 190);
+  justify-content:space-between;
+  overflow:auto;
+  padding: 14px 16px;
+  color:rgb(255,255,255);
+  font-stlye: Courier New;
+}
+ul li {
+  position:relative;
+  margin: 15px 20px;
+  list-style:none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Courier New;
+}
+.logo{
+  width: 120px;
+  height: 90px;
+  style: margin-left 40px;
+}
+ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+ul li a: hover {
+  background-color: rgb (129, 123, 123);
+}
+h1 {
+  font-family: Helvetica;
+    text-align: center;
+  color:white;
+    font-size: 70px;
+}
+p1 {
+ font-size: 20px;
+  font-Family: Courier New;
+}
+
+container {
+  height: 20px;
+  background-color: blue;  
+}
+.container {
+    width: 100%; /* Full width of the container */
+    margin: 20px 0; /* Margin around the progress bar */
+}
+
+.progress-bar {
+    background-color: #e0e0e0; /* Background of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    height: 25px; /* Height of the progress bar */
+    position: relative; /* Positioning for the inner progress */
+}
+
+.progress {
+    background-color: #76c7c0; /* Fill color of the progress */
+    height: 100%; /* Full height relative to the progress bar */
+    width: 0%; /* Start width at 0%, will be updated via JavaScript */
+    border-radius: 5px; /* Rounded corners for the fill */
+    transition: width 0.5s ease; /* Smooth transition for width change */
+}
