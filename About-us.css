@@ -1,0 +1,101 @@
+<css>
+body{
+  Background-color:rgb(217,353,375);
+    background-repeat: no-repeat;
+  background-size:cover;
+}
+nav{
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  background-color:RGB(37, 150, 190);
+  justify-content:space-between;
+  overflow:auto;
+  padding: 14px 16px;
+  color:rgb(255,255,255);
+}
+ul li {
+  position:relative;
+  margin: 15px 20px;
+  list-style:none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  font-family: arial;
+}
+.logo{
+  width: 120px;
+  height: 90px;
+  style: margin-left 40px;
+}
+ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+ul li a: hover {
+  background-color: rgb (129, 123, 123);
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;T
+}
+.container {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  width: 100%; 
+  padding: 20px;
+}
+
+.Insta {
+  width: 50px;
+  height: 50px;
+}
+
+.X {
+  width: 50px;
+  height: 50px;
+}
+
+.YouTube {
+  width: 65px;
+  height: 50px;
+}
+.Kento {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+}
+
+.Cool {
+  width: 30px;
+  height: auto;
+  margin-bottom: 4px;
+  transition: transform 0.3s;
+}
+
+.Cool:hover {
+  transform: scale(1.2);
+}
+</css>
