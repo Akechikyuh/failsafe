@@ -1,0 +1,83 @@
+body{
+  Background-color:rgb(217,353,375);
+    background-repeat: no-repeat;
+  background-size:cover;
+}
+nav{
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  background-color:RGB(37, 150, 190);
+  justify-content:space-between;
+  overflow:auto;
+  padding: 14px 16px;
+  color:rgb(255,255,255);
+}
+ul li {
+  position:relative;
+  margin: 15px 20px;
+  list-style:none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  font-family: arial;
+}
+.logo{
+  width: 120px;
+  height: 90px;
+  style: margin-left 40px;
+}
+ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+ul li a: hover {
+  background-color: rgb (129, 123, 123);
+}
+h1 {
+  font-family: Helvetica;
+    text-align: center;
+  color:white;
+    font-size: 70px;
+}
+body {
+  background-color: #b3f7f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  padding: 20px;
+}
+
+.description {
+  font-size: 1.1em;
+}
+
+.weekly-reward {
+  margin-top: 30px;
+}
+
+.reward-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.reward-text {
+  flex: 1;
+}
+
+.reward-img img {
+  max-width: 150px;
+  height: auto;
+}
+h2{
+  text-align:center;
+  text-size:200px
+}
