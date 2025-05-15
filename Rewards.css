@@ -12,6 +12,7 @@ nav{
   overflow:auto;
   padding: 14px 16px;
   color:rgb(255,255,255);
+  font-stlye: Courier New;
 }
 ul li {
   position:relative;
