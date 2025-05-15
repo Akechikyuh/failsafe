@@ -16,13 +16,17 @@ body {
 p{
   font-family:courier-new;
 }
-nav{ display:flex;
+nav{
+  display:flex;
   flex-wrap: wrap;
   align-items:center;
-  background-color:RGB(37, 150, 190); justify-content:space-between; overflow:auto; 
-  padding: 14px 16px; 
+  background-color:RGB(37, 150, 190);
+  justify-content:space-between;
+  overflow:auto;
+  padding: 14px 16px;
   color:rgb(255,255,255);
-} 
+  font-stlye: Courier New;
+}
 ul li { position:relative;
   margin: 15px 20px; 
   list-style:none; 
